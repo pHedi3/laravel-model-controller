@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             @foreach ($allMovies as $movie)
-                <div>
+                <div class="col-3">
                     <h1>{{$movie->title}}</h1>
                     <h2>{{$movie->original_title}}</h2>
                     <h3>{{$movie->nationality}}</h3>
