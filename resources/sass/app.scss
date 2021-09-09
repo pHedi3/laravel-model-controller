@@ -6,3 +6,20 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+.tag {
+    h1 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        display: inline;
+        font-size: 12px;
+    }
+
+}
