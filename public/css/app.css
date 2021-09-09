@@ -10942,16 +10942,43 @@ a.text-dark:focus {
   }
 }
 
-h1 {
-  font-size: 34px;
+body {
+  height: 100vh;
+  background-image: linear-gradient(45deg, black, #333);
+  background-size: cover;
+  background-position: center;
+}
+
+body .tag {
+  color: white;
+  margin-top: 12px;
+  display: flex;
+  justify-items: stretch;
+  align-content: stretch;
+}
+
+body .tag div {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left top, #777, #444);
+}
+
+body h1 {
+  font-size: 28px;
   font-weight: bold;
+  text-align: center;
 }
 
-h2 {
-  font-size: 24px;
+body h2 {
+  font-size: 20px;
 }
 
-h3 {
+body h3 {
   display: inline;
   font-size: 12px;
 }

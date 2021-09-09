@@ -12,11 +12,13 @@
         <div class="row">
             @foreach ($allMovies as $movie)
                 <div class="col-3 tag">
-                    <h1>{{$movie->title}}</h1>
-                    <h2>{{$movie->original_title}}</h2>
-                    <h3>{{$movie->nationality}}</h3>
-                    <h3>{{$movie->date}}</h3>
-                    <h2>{{$movie->vote}}</h2>
+                    <div>
+                        <h1>{{$movie->title}}</h1>
+                        <h2>{{$movie->original_title}}</h2>
+                        <h3>{{$movie->nationality}}</h3>
+                        <h3>{{$movie->date}}</h3>
+                        <h2>{{$movie->vote}}</h2>
+                    </div>
                 </div>
             @endforeach
         </div>
